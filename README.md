@@ -17,4 +17,11 @@ Important status:
 - Forecast evidence quality is displayed separately from policy validation.
 - Codex remains the stronger production candidate based on the recorded comparison.
 
+Refresh cadence matches the Claude/Codex dashboards when the local Fable launchd
+agents are installed from the source repo:
+
+- 06:30 ET research intraday snapshot;
+- 09:30-16:00 ET research snapshots every 30 minutes;
+- 20:30 ET close research snapshot.
+
 Research / educational only. Not investment advice.
