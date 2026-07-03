@@ -8,6 +8,34 @@ The site is generated from:
 
 `/Users/block/agentic-coding/Claude/crypto-cycle-detection-fable/scripts/export_dashboard.py`
 
+## Local validation
+
+This repo now includes a small zero-dependency dashboard harness:
+
+```bash
+npm test
+```
+
+The harness checks that `data.json` is valid, the embedded `DATA` in `index.html`
+matches it exactly, the inline JavaScript parses, and the research-only /
+failed-validation disclosures are still present.
+
+To preview locally:
+
+```bash
+npm run serve
+```
+
+Then open `http://127.0.0.1:4173/`.
+
+## Agent handoff
+
+For a Fable finishing pass, start with:
+
+- `CLAUDE.md`
+- `.claude/skills/fable-dashboard/SKILL.md`
+- `FABLE_HANDOFF.md`
+
 Important status:
 
 - Fable is an independent research benchmark, not the live production model.
