@@ -9,6 +9,10 @@ This repository publishes the independent Fable BTC / ETH cycle dashboard. It is
 ## Current Shape
 
 - `index.html` is the published static page and currently embeds the full `DATA` object.
+- IMPORTANT: `index.html` is a BUILD ARTIFACT. It is regenerated every 30 minutes (market hours)
+  by the upstream exporter from `/Users/block/agentic-coding/Claude/crypto-cycle-detection-fable/dashboard/index.template.html`
+  (placeholder `const DATA = /*__DATA__*/null;`). Make UI changes in that template, then run the
+  upstream `scripts/export_dashboard.py`; edits made only to `index.html` here will be overwritten and auto-pushed.
 - `data.json` is the canonical exported dataset and must stay exactly synchronized with the embedded `DATA` in `index.html`.
 - The source exporter lives outside this repo: `/Users/block/agentic-coding/Claude/crypto-cycle-detection-fable/scripts/export_dashboard.py`.
 - GitHub Pages deploys the repository root through `.github/workflows/deploy.yml`.
