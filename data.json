@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-04 10:00",
+ "generated_at": "2026-07-04 10:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 62533.0,
-  "ETH": 1761.66
+  "BTC": 62617.0,
+  "ETH": 1770.14
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-04",
-    "price": 62533.0,
-    "mvrv": 1.1688,
-    "mvrv_pct": 0.1897,
+    "price": 62617.0,
+    "mvrv": 1.1703,
+    "mvrv_pct": 0.1903,
     "mvrv_stale_days": 22,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 38.7,
      "weeks_in_campaign": 32.3,
-     "drawdown": -0.4986,
+     "drawdown": -0.4979,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.439,
+     "p_bottom_in": 0.4388,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4482,
+     "p_bottom_in": 0.448,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.431,
+     "deployment_target": 0.4302,
      "base_component": 0.4139,
-     "capitulation_boost": 0.0171,
+     "capitulation_boost": 0.0162,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1693,9 +1693,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-04",
-    "price": 1761.66,
-    "mvrv": 0.8817,
-    "mvrv_pct": 0.1825,
+    "price": 1770.14,
+    "mvrv": 0.886,
+    "mvrv_pct": 0.1843,
     "mvrv_stale_days": 22,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.1,
      "weeks_in_campaign": 34.6,
-     "drawdown": -0.6354,
+     "drawdown": -0.6336,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1724,7 +1724,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5214,
+     "p_bottom_in": 0.5213,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1733,7 +1733,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 291.68,
+      "0.1": 144.94,
       "0.5": 802.03,
       "0.9": 1128.84
      },
@@ -1753,9 +1753,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4723,
+     "deployment_target": 0.4694,
      "base_component": 0.4432,
-     "capitulation_boost": 0.0291,
+     "capitulation_boost": 0.0262,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1765,7 +1765,7 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 35, -64% from 4,831 peak",
+     "state": "accumulation campaign, week 35, -63% from 4,831 peak",
      "action": "research target ~47% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
@@ -8141,6 +8141,7 @@
   "Posterior modulation of the base rate ablated out (equal median, worse min): the hazard forecast is displayed, not used for base sizing.",
   "Prior-cycle ATH definition fixed to cycle-grade bears (>=60% depth) after the Nov-2021 window failure; 0.60 is a fixed constant, not tuned.",
   "Distribution: the pre-registered dumb ladder BEAT the extension-score policy held-out and is the shipped action; the score remains as a displayed signal.",
-  "2026-07-03 display promotion: the displayed forecast is the accepted 5-input basing hazard routed through Layer-3 calibration (pooled log-loss 0.713->0.648, pinball 9/11, coverage intact, held-out). Display-only: sizing still ignores the forecast and policy gates remain FAILED."
+  "2026-07-03 display promotion: the displayed forecast is the accepted 5-input basing hazard routed through Layer-3 calibration (pooled log-loss 0.713->0.648, pinball 9/11, coverage intact, held-out). Display-only: sizing still ignores the forecast and policy gates remain FAILED.",
+  "2026-07-04 cross-audit: the Codex convex depth-floor policy core (constants frozen from the Codex repo) was run once through THIS battery per pre-registration. Better held-out LOCO (median ratio 1.038 vs 1.012, min 0.851 vs 0.808) but FAILED the same two gates, worse: perturbation worst shift 29.2% (vs 20.7%; limit 15%) and stress delayed_lower_low TV 0.546 vs DCA 0.762 with one early-exhaustion. Not adopted; no retuning. Codex's own dashboard gates are a different, laxer exam (utility-style, no plateau/ruin test)."
  ]
 }
