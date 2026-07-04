@@ -197,7 +197,10 @@ function checkData(data) {
 }
 
 function checkHtml(html, script) {
-  check(html.includes("<title>Crypto Cycle"), "index.html must keep a meaningful title");
+  check(
+    /<title>(Crypto Cycle \u2014 Fable|Fable Crypto Cycle Dashboard)<\/title>/.test(html),
+    "index.html must keep a meaningful title",
+  );
   check(html.includes("Research only"), "index.html must display Research only");
   check(html.includes("do not use as a live deployment recommendation"), "index.html must warn against live deployment use");
   check(html.includes("not investment advice"), "index.html must include not investment advice");
