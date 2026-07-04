@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-04 09:41",
+ "generated_at": "2026-07-04 10:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 62538.0,
-  "ETH": 1763.03
+  "BTC": 62533.0,
+  "ETH": 1761.66
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-04",
-    "price": 62538.0,
+    "price": 62533.0,
     "mvrv": 1.1688,
-    "mvrv_pct": 0.1899,
+    "mvrv_pct": 0.1897,
     "mvrv_stale_days": 22,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4481,
+     "p_bottom_in": 0.4482,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4307,
+     "deployment_target": 0.431,
      "base_component": 0.4139,
-     "capitulation_boost": 0.0168,
+     "capitulation_boost": 0.0171,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1693,9 +1693,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-04",
-    "price": 1763.03,
-    "mvrv": 0.8824,
-    "mvrv_pct": 0.1828,
+    "price": 1761.66,
+    "mvrv": 0.8817,
+    "mvrv_pct": 0.1825,
     "mvrv_stale_days": 22,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.1,
      "weeks_in_campaign": 34.6,
-     "drawdown": -0.6351,
+     "drawdown": -0.6354,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1733,7 +1733,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 144.94,
+      "0.1": 291.68,
       "0.5": 802.03,
       "0.9": 1128.84
      },
@@ -1753,9 +1753,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4719,
+     "deployment_target": 0.4723,
      "base_component": 0.4432,
-     "capitulation_boost": 0.0287,
+     "capitulation_boost": 0.0291,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
