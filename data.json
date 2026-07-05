@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-05 10:00",
+ "generated_at": "2026-07-05 10:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 62735.0,
-  "ETH": 1764.48
+  "BTC": 62662.0,
+  "ETH": 1765.59
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-05",
-    "price": 62735.0,
-    "mvrv": 1.1725,
-    "mvrv_pct": 0.1909,
+    "price": 62662.0,
+    "mvrv": 1.1712,
+    "mvrv_pct": 0.1903,
     "mvrv_stale_days": 23,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 38.9,
      "weeks_in_campaign": 32.4,
-     "drawdown": -0.497,
+     "drawdown": -0.4976,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4402,
+     "p_bottom_in": 0.4404,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4492,
+     "p_bottom_in": 0.4493,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4308,
+     "deployment_target": 0.432,
      "base_component": 0.4158,
-     "capitulation_boost": 0.0151,
+     "capitulation_boost": 0.0162,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1693,8 +1693,8 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-05",
-    "price": 1764.48,
-    "mvrv": 0.8832,
+    "price": 1765.59,
+    "mvrv": 0.8837,
     "mvrv_pct": 0.1828,
     "mvrv_stale_days": 23,
     "regime": "ACCUMULATION",
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.3,
      "weeks_in_campaign": 34.7,
-     "drawdown": -0.6348,
+     "drawdown": -0.6345,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
