@@ -33,6 +33,9 @@ This repository publishes the independent Fable BTC / ETH cycle dashboard. It is
 - Keep the distribution ladder result clear: the simple ladder beat the extension-score policy held out, so the score is display-only.
 - Do not grade live campaigns as complete episodes.
 - Do not replace `data.json` with manually invented market data.
+- Preserve the 2026-07-04 Codex convex cross-audit conclusion: Codex's frozen
+  core improved LOCO under this battery but failed the same anti-overfit gates
+  with worse perturbation/stress outcomes, so it was not adopted or retuned.
 
 ## Fable One-Pass Build Brief
 

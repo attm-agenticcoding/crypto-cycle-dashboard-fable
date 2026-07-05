@@ -43,7 +43,10 @@ Important status:
 - The anti-overfit suite did not pass all gates: `all_pass = false`,
   `perturb_plateau = false`, and `stress_no_ruin = false`.
 - Forecast evidence quality is displayed separately from policy validation.
-- Codex remains the stronger production candidate based on the recorded comparison.
+- The 2026-07-04 cross-audit put the Codex convex depth-floor core through
+  this battery once with frozen constants: it improved LOCO ratios but failed
+  the same anti-overfit gates, with worse perturbation/stress outcomes. Do not
+  present either policy as production-approved.
 
 Refresh cadence matches the Claude/Codex dashboards when the local Fable launchd
 agents are installed from the source repo:
