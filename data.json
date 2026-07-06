@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-06 11:30",
+ "generated_at": "2026-07-06 12:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 62329.0,
-  "ETH": 1761.21
+  "BTC": 63413.0,
+  "ETH": 1785.48
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-06",
-    "price": 62329.0,
-    "mvrv": 1.1649,
-    "mvrv_pct": 0.188,
+    "price": 63413.0,
+    "mvrv": 1.1852,
+    "mvrv_pct": 0.1956,
     "mvrv_stale_days": 24,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 39.0,
      "weeks_in_campaign": 32.6,
-     "drawdown": -0.5002,
+     "drawdown": -0.4916,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4426,
+     "p_bottom_in": 0.4406,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4512,
+     "p_bottom_in": 0.4495,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4376,
+     "deployment_target": 0.4249,
      "base_component": 0.4176,
-     "capitulation_boost": 0.02,
+     "capitulation_boost": 0.0073,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -90,8 +90,8 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 33, -50% from 124,720 peak",
-     "action": "research target ~44% deployed (not live-approved); weekly steps <= 12%",
+     "state": "accumulation campaign, week 33, -49% from 124,720 peak",
+     "action": "research target ~42% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (7,530) \u2014 depth beyond the episode library",
@@ -1693,9 +1693,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-06",
-    "price": 1761.21,
-    "mvrv": 0.8815,
-    "mvrv_pct": 0.1825,
+    "price": 1785.48,
+    "mvrv": 0.8937,
+    "mvrv_pct": 0.1873,
     "mvrv_stale_days": 24,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.4,
      "weeks_in_campaign": 34.9,
-     "drawdown": -0.6355,
+     "drawdown": -0.6304,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1712,7 +1712,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5299,
+     "p_bottom_in": 0.5304,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1724,7 +1724,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5255,
+     "p_bottom_in": 0.5258,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1733,7 +1733,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 144.94,
+      "0.1": 291.68,
       "0.5": 802.03,
       "0.9": 1128.84
      },
@@ -1753,9 +1753,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.476,
+     "deployment_target": 0.468,
      "base_component": 0.4469,
-     "capitulation_boost": 0.0291,
+     "capitulation_boost": 0.0211,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1765,8 +1765,8 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 35, -64% from 4,831 peak",
-     "action": "research target ~48% deployed (not live-approved); weekly steps <= 12%",
+     "state": "accumulation campaign, week 35, -63% from 4,831 peak",
+     "action": "research target ~47% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (292) \u2014 depth beyond the episode library",
