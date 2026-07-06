@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-06 12:30",
+ "generated_at": "2026-07-06 13:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 63400.0,
-  "ETH": 1786.39
+  "BTC": 63644.0,
+  "ETH": 1790.16
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-06",
-    "price": 63400.0,
-    "mvrv": 1.185,
-    "mvrv_pct": 0.1956,
+    "price": 63644.0,
+    "mvrv": 1.1895,
+    "mvrv_pct": 0.1961,
     "mvrv_stale_days": 24,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 39.0,
      "weeks_in_campaign": 32.6,
-     "drawdown": -0.4917,
+     "drawdown": -0.4897,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4407,
+     "p_bottom_in": 0.4403,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4496,
+     "p_bottom_in": 0.4493,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4249,
+     "deployment_target": 0.4241,
      "base_component": 0.4176,
-     "capitulation_boost": 0.0073,
+     "capitulation_boost": 0.0065,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1693,9 +1693,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-06",
-    "price": 1786.39,
-    "mvrv": 0.8941,
-    "mvrv_pct": 0.1873,
+    "price": 1790.16,
+    "mvrv": 0.896,
+    "mvrv_pct": 0.1891,
     "mvrv_stale_days": 24,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.4,
      "weeks_in_campaign": 34.9,
-     "drawdown": -0.6302,
+     "drawdown": -0.6295,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1753,9 +1753,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.468,
+     "deployment_target": 0.4651,
      "base_component": 0.4469,
-     "capitulation_boost": 0.0211,
+     "capitulation_boost": 0.0182,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
