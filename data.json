@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-07 14:30",
+ "generated_at": "2026-07-07 15:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 63965.0,
-  "ETH": 1800.49
+  "BTC": 63670.0,
+  "ETH": 1786.78
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-07",
-    "price": 63965.0,
-    "mvrv": 1.1955,
-    "mvrv_pct": 0.1971,
+    "price": 63670.0,
+    "mvrv": 1.19,
+    "mvrv_pct": 0.1961,
     "mvrv_stale_days": 25,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 39.1,
      "weeks_in_campaign": 32.7,
-     "drawdown": -0.4871,
+     "drawdown": -0.4895,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4418,
+     "p_bottom_in": 0.4422,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4506,
+     "p_bottom_in": 0.4509,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4242,
+     "deployment_target": 0.4259,
      "base_component": 0.4194,
-     "capitulation_boost": 0.0048,
+     "capitulation_boost": 0.0065,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -91,7 +91,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 33, -49% from 124,720 peak",
-     "action": "research target ~42% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~43% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (7,530) \u2014 depth beyond the episode library",
@@ -1693,9 +1693,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-07",
-    "price": 1800.49,
-    "mvrv": 0.9012,
-    "mvrv_pct": 0.1914,
+    "price": 1786.78,
+    "mvrv": 0.8943,
+    "mvrv_pct": 0.1873,
     "mvrv_stale_days": 25,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1704,7 +1704,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 45.6,
      "weeks_in_campaign": 35.0,
-     "drawdown": -0.6273,
+     "drawdown": -0.6302,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1712,7 +1712,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5333,
+     "p_bottom_in": 0.533,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1724,7 +1724,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5283,
+     "p_bottom_in": 0.5281,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1733,7 +1733,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 144.94,
+      "0.1": 291.68,
       "0.5": 802.03,
       "0.9": 1128.84
      },
@@ -1753,9 +1753,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4631,
+     "deployment_target": 0.4698,
      "base_component": 0.4487,
-     "capitulation_boost": 0.0144,
+     "capitulation_boost": 0.0211,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1766,7 +1766,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 35, -63% from 4,831 peak",
-     "action": "research target ~46% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~47% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (292) \u2014 depth beyond the episode library",
@@ -6385,7 +6385,7 @@
     1791.24,
     1665.04,
     1569.45,
-    1800.49
+    1786.78
    ],
    "deployed": [
     0.0,
@@ -6461,7 +6461,7 @@
     0.428,
     0.4939,
     0.561,
-    0.4631
+    0.4698
    ],
    "p_post": [
     0.3722,
@@ -6499,7 +6499,7 @@
     0.6423,
     0.656,
     0.668,
-    0.656
+    0.657
    ],
    "dca_deployed": [
     0.0128,
