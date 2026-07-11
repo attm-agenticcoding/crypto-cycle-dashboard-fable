@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-11 10:40",
+ "generated_at": "2026-07-11 11:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64416.0,
-  "ETH": 1811.24
+  "BTC": 64311.0,
+  "ETH": 1810.38
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-11",
-    "price": 64416.0,
-    "mvrv": 1.2039,
-    "mvrv_pct": 0.1994,
+    "price": 64311.0,
+    "mvrv": 1.202,
+    "mvrv_pct": 0.1989,
     "mvrv_stale_days": 29,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 39.7,
      "weeks_in_campaign": 33.3,
-     "drawdown": -0.4835,
+     "drawdown": -0.4844,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4278,
+     "deployment_target": 0.4286,
      "base_component": 0.4267,
-     "capitulation_boost": 0.001,
+     "capitulation_boost": 0.0019,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1695,9 +1695,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-11",
-    "price": 1811.24,
-    "mvrv": 0.9066,
-    "mvrv_pct": 0.1936,
+    "price": 1810.38,
+    "mvrv": 0.9061,
+    "mvrv_pct": 0.1934,
     "mvrv_stale_days": 29,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1706,7 +1706,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 46.1,
      "weeks_in_campaign": 35.6,
-     "drawdown": -0.6251,
+     "drawdown": -0.6253,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1755,9 +1755,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4666,
+     "deployment_target": 0.4671,
      "base_component": 0.456,
-     "capitulation_boost": 0.0106,
+     "capitulation_boost": 0.011,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
