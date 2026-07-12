@@ -1,10 +1,7 @@
 {
- "generated_at": "2026-07-11 16:00",
- "run_kind": "live",
- "live_spots": {
-  "BTC": 64241.0,
-  "ETH": 1822.94
- },
+ "generated_at": "2026-07-11 20:35",
+ "run_kind": "close",
+ "live_spots": {},
  "params": {
   "family": "time_boost",
   "horizon_weeks": 78,
@@ -18,9 +15,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-11",
-    "price": 64241.0,
-    "mvrv": 1.2007,
-    "mvrv_pct": 0.1983,
+    "price": 63773.04,
+    "mvrv": 1.1919,
+    "mvrv_pct": 0.1968,
     "mvrv_stale_days": 29,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +26,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 39.7,
      "weeks_in_campaign": 33.3,
-     "drawdown": -0.4849,
+     "drawdown": -0.4887,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +34,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4495,
+     "p_bottom_in": 0.4496,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +46,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.457,
+     "p_bottom_in": 0.4571,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +75,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4295,
+     "deployment_target": 0.4321,
      "base_component": 0.4267,
-     "capitulation_boost": 0.0028,
+     "capitulation_boost": 0.0053,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -90,7 +87,7 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 33, -48% from 124,720 peak",
+     "state": "accumulation campaign, week 33, -49% from 124,720 peak",
      "action": "research target ~43% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
@@ -1695,9 +1692,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-11",
-    "price": 1822.94,
-    "mvrv": 0.9124,
-    "mvrv_pct": 0.1972,
+    "price": 1786.81,
+    "mvrv": 0.8943,
+    "mvrv_pct": 0.1873,
     "mvrv_stale_days": 29,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1706,7 +1703,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 46.1,
      "weeks_in_campaign": 35.6,
-     "drawdown": -0.6227,
+     "drawdown": -0.6302,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1714,7 +1711,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5452,
+     "p_bottom_in": 0.5433,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1726,7 +1723,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5385,
+     "p_bottom_in": 0.5368,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 802.03,
@@ -1735,7 +1732,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 291.68,
+      "0.1": 144.94,
       "0.5": 802.03,
       "0.9": 1128.84
      },
@@ -1755,9 +1752,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4608,
+     "deployment_target": 0.4772,
      "base_component": 0.456,
-     "capitulation_boost": 0.0047,
+     "capitulation_boost": 0.0211,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1767,8 +1764,8 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 36, -62% from 4,831 peak",
-     "action": "research target ~46% deployed (not live-approved); weekly steps <= 12%",
+     "state": "accumulation campaign, week 36, -63% from 4,831 peak",
+     "action": "research target ~48% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "HIGH",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (292) \u2014 depth beyond the episode library",
