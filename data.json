@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-14 13:35",
+ "generated_at": "2026-07-14 14:17",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64415.0,
-  "ETH": 1866.41
+  "BTC": 64470.0,
+  "ETH": 1869.31
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-14",
-    "price": 64415.0,
-    "mvrv": 1.2039,
-    "mvrv_pct": 0.1994,
+    "price": 64470.0,
+    "mvrv": 1.205,
+    "mvrv_pct": 0.1999,
     "mvrv_stale_days": 32,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 40.1,
      "weeks_in_campaign": 33.7,
-     "drawdown": -0.4835,
+     "drawdown": -0.4831,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4333,
+     "deployment_target": 0.4324,
      "base_component": 0.4322,
-     "capitulation_boost": 0.001,
+     "capitulation_boost": 0.0002,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1695,9 +1695,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-14",
-    "price": 1866.41,
-    "mvrv": 0.9342,
-    "mvrv_pct": 0.2131,
+    "price": 1869.31,
+    "mvrv": 0.9356,
+    "mvrv_pct": 0.2138,
     "mvrv_stale_days": 32,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1706,7 +1706,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 46.6,
      "weeks_in_campaign": 36.0,
-     "drawdown": -0.6137,
+     "drawdown": -0.6131,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1714,7 +1714,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5567,
+     "p_bottom_in": 0.5569,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1726,7 +1726,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5368,
+     "p_bottom_in": 0.537,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 611.24,
@@ -6397,7 +6397,7 @@
     1665.04,
     1569.45,
     1770.09,
-    1866.41
+    1869.31
    ],
    "deployed": [
     0.0,
@@ -6514,7 +6514,7 @@
     0.656,
     0.668,
     0.6581,
-    0.619
+    0.6189
    ],
    "dca_deployed": [
     0.0128,
