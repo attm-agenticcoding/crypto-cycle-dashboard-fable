@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-15 10:30",
+ "generated_at": "2026-07-15 11:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 65223.0,
-  "ETH": 1923.47
+  "BTC": 65333.0,
+  "ETH": 1929.92
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-15",
-    "price": 65223.0,
-    "mvrv": 1.219,
-    "mvrv_pct": 0.2049,
+    "price": 65333.0,
+    "mvrv": 1.2211,
+    "mvrv_pct": 0.2052,
     "mvrv_stale_days": 33,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 40.3,
      "weeks_in_campaign": 33.9,
-     "drawdown": -0.477,
+     "drawdown": -0.4762,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4577,
+     "p_bottom_in": 0.4578,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -1367,7 +1367,7 @@
      60983.13,
      59961.45,
      62237.7,
-     65223.0
+     65333.0
     ],
     "campaigns": [
      {
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-15",
-    "price": 1923.47,
-    "mvrv": 0.9627,
-    "mvrv_pct": 0.2373,
+    "price": 1929.92,
+    "mvrv": 0.966,
+    "mvrv_pct": 0.2408,
     "mvrv_stale_days": 33,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 46.7,
      "weeks_in_campaign": 36.1,
-     "drawdown": -0.6019,
+     "drawdown": -0.6005,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5639,
+     "p_bottom_in": 0.5643,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5416,
+     "p_bottom_in": 0.5418,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 611.24,
