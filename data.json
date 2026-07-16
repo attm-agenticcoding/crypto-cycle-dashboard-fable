@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-16 15:00",
+ "generated_at": "2026-07-16 15:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64226.0,
-  "ETH": 1875.44
+  "BTC": 64170.0,
+  "ETH": 1871.58
  },
  "params": {
   "family": "time_boost",
@@ -18,8 +18,8 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-16",
-    "price": 64226.0,
-    "mvrv": 1.2004,
+    "price": 64170.0,
+    "mvrv": 1.1993,
     "mvrv_pct": 0.1982,
     "mvrv_stale_days": 34,
     "regime": "ACCUMULATION",
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 40.4,
      "weeks_in_campaign": 34.0,
-     "drawdown": -0.485,
+     "drawdown": -0.4855,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-16",
-    "price": 1875.44,
-    "mvrv": 0.9387,
-    "mvrv_pct": 0.2153,
+    "price": 1871.58,
+    "mvrv": 0.9368,
+    "mvrv_pct": 0.2148,
     "mvrv_stale_days": 34,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 46.9,
      "weeks_in_campaign": 36.3,
-     "drawdown": -0.6118,
+     "drawdown": -0.6126,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5637,
+     "p_bottom_in": 0.5633,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5414,
+     "p_bottom_in": 0.5411,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 611.24,
@@ -2718,7 +2718,7 @@
      1565.19,
      1698.63,
      1743.82,
-     1875.44
+     1871.58
     ],
     "campaigns": [
      {
@@ -6171,7 +6171,7 @@
     59703.65,
     61484.02,
     63175.25,
-    64226.0
+    64170.0
    ],
    "deployed": [
     0.0,
@@ -6282,7 +6282,7 @@
     0.5906,
     0.591,
     0.5917,
-    0.572
+    0.5721
    ],
    "dca_deployed": [
     0.0128,
