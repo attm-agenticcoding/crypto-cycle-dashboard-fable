@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-17 11:00",
+ "generated_at": "2026-07-17 11:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 63171.0,
-  "ETH": 1822.19
+  "BTC": 63175.0,
+  "ETH": 1818.51
  },
  "params": {
   "family": "time_boost",
@@ -18,8 +18,8 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-17",
-    "price": 63171.0,
-    "mvrv": 1.1799,
+    "price": 63175.0,
+    "mvrv": 1.18,
     "mvrv_pct": 0.1934,
     "mvrv_stale_days": 35,
     "regime": "ACCUMULATION",
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-17",
-    "price": 1822.19,
-    "mvrv": 0.9116,
-    "mvrv_pct": 0.1959,
+    "price": 1818.51,
+    "mvrv": 0.9097,
+    "mvrv_pct": 0.1949,
     "mvrv_stale_days": 35,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 47.0,
      "weeks_in_campaign": 36.4,
-     "drawdown": -0.6229,
+     "drawdown": -0.6237,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5613,
+     "p_bottom_in": 0.5609,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5398,
+     "p_bottom_in": 0.5396,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 610.75,
@@ -1757,9 +1757,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4738,
+     "deployment_target": 0.4755,
      "base_component": 0.467,
-     "capitulation_boost": 0.0068,
+     "capitulation_boost": 0.0085,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -1770,7 +1770,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 36, -62% from 4,832 peak",
-     "action": "research target ~47% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~48% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (145) \u2014 depth beyond the episode library",
