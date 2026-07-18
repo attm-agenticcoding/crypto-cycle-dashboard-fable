@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-18 11:05",
+ "generated_at": "2026-07-18 11:36",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64078.0,
-  "ETH": 1844.59
+  "BTC": 64034.0,
+  "ETH": 1842.81
  },
  "params": {
   "family": "time_boost",
@@ -18,8 +18,8 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-18",
-    "price": 64078.0,
-    "mvrv": 1.1976,
+    "price": 64034.0,
+    "mvrv": 1.1968,
     "mvrv_pct": 0.1978,
     "mvrv_stale_days": 36,
     "regime": "ACCUMULATION",
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 40.7,
      "weeks_in_campaign": 34.3,
-     "drawdown": -0.4862,
+     "drawdown": -0.4866,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.463,
+     "p_bottom_in": 0.4629,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-18",
-    "price": 1844.59,
-    "mvrv": 0.9233,
-    "mvrv_pct": 0.206,
+    "price": 1842.81,
+    "mvrv": 0.9224,
+    "mvrv_pct": 0.2053,
     "mvrv_stale_days": 36,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 47.1,
      "weeks_in_campaign": 36.6,
-     "drawdown": -0.6182,
+     "drawdown": -0.6186,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5667,
+     "p_bottom_in": 0.5665,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5433,
+     "p_bottom_in": 0.5432,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 611.24,
@@ -1737,7 +1737,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 164.1,
+      "0.1": 144.94,
       "0.5": 802.03,
       "0.9": 1210.54
      },
