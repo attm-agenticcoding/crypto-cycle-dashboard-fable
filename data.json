@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-20 10:03",
+ "generated_at": "2026-07-20 10:41",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64299.0,
-  "ETH": 1860.63
+  "BTC": 64349.0,
+  "ETH": 1863.99
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-20",
-    "price": 64299.0,
-    "mvrv": 1.2018,
-    "mvrv_pct": 0.1987,
+    "price": 64349.0,
+    "mvrv": 1.2027,
+    "mvrv_pct": 0.1992,
     "mvrv_stale_days": 38,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 41.0,
      "weeks_in_campaign": 34.6,
-     "drawdown": -0.4845,
+     "drawdown": -0.4841,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.467,
+     "p_bottom_in": 0.4671,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4454,
+     "deployment_target": 0.4445,
      "base_component": 0.4432,
-     "capitulation_boost": 0.0022,
+     "capitulation_boost": 0.0013,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -91,7 +91,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 35, -48% from 124,720 peak",
-     "action": "research target ~45% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~44% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (3,742) \u2014 depth beyond the episode library",
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-20",
-    "price": 1860.63,
-    "mvrv": 0.9313,
-    "mvrv_pct": 0.2108,
+    "price": 1863.99,
+    "mvrv": 0.933,
+    "mvrv_pct": 0.2121,
     "mvrv_stale_days": 38,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 47.4,
      "weeks_in_campaign": 36.9,
-     "drawdown": -0.6149,
+     "drawdown": -0.6142,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5742,
+     "p_bottom_in": 0.5746,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5483,
+     "p_bottom_in": 0.5485,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 855.69,
