@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-21 10:00",
+ "generated_at": "2026-07-21 10:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 66695.0,
-  "ETH": 1937.63
+  "BTC": 66634.0,
+  "ETH": 1930.12
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-21",
-    "price": 66695.0,
-    "mvrv": 1.2465,
-    "mvrv_pct": 0.2209,
+    "price": 66634.0,
+    "mvrv": 1.2454,
+    "mvrv_pct": 0.22,
     "mvrv_stale_days": 39,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 41.1,
      "weeks_in_campaign": 34.7,
-     "drawdown": -0.4652,
+     "drawdown": -0.4657,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -1697,9 +1697,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-21",
-    "price": 1937.63,
-    "mvrv": 0.9698,
-    "mvrv_pct": 0.2436,
+    "price": 1930.12,
+    "mvrv": 0.9661,
+    "mvrv_pct": 0.2414,
     "mvrv_stale_days": 39,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1708,7 +1708,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 47.6,
      "weeks_in_campaign": 37.0,
-     "drawdown": -0.5989,
+     "drawdown": -0.6005,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1716,7 +1716,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5864,
+     "p_bottom_in": 0.5854,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1728,7 +1728,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5561,
+     "p_bottom_in": 0.5555,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 855.69,
@@ -6409,7 +6409,7 @@
     1569.45,
     1770.09,
     1890.63,
-    1937.63
+    1930.12
    ],
    "deployed": [
     0.0,
@@ -6529,7 +6529,7 @@
     0.668,
     0.6581,
     0.6177,
-    0.6181
+    0.6185
    ],
    "dca_deployed": [
     0.0128,
