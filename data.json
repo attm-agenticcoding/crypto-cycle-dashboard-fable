@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-25 11:00",
+ "generated_at": "2026-07-25 11:30",
  "run_kind": "live",
  "live_spots": {
   "BTC": 64155.0,
-  "ETH": 1867.07
+  "ETH": 1867.04
  },
  "params": {
   "family": "time_boost",
@@ -1699,7 +1699,7 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-25",
-    "price": 1867.07,
+    "price": 1867.04,
     "mvrv": 0.9345,
     "mvrv_pct": 0.2131,
     "mvrv_stale_days": 43,
