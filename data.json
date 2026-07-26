@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-26 06:33",
+ "generated_at": "2026-07-26 09:47",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64483.0,
-  "ETH": 1884.77
+  "BTC": 64507.0,
+  "ETH": 1886.02
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-26",
-    "price": 64483.0,
-    "mvrv": 1.2052,
-    "mvrv_pct": 0.2001,
+    "price": 64507.0,
+    "mvrv": 1.2056,
+    "mvrv_pct": 0.2002,
     "mvrv_stale_days": 44,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 41.9,
      "weeks_in_campaign": 35.4,
-     "drawdown": -0.483,
+     "drawdown": -0.4828,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.486,
+     "p_bottom_in": 0.4861,
      "bottom_price_q": {
       "0.1": 3741.6,
       "0.25": 23056.96,
@@ -1699,9 +1699,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-26",
-    "price": 1884.77,
-    "mvrv": 0.9434,
-    "mvrv_pct": 0.2181,
+    "price": 1886.02,
+    "mvrv": 0.944,
+    "mvrv_pct": 0.2184,
     "mvrv_stale_days": 44,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1710,7 +1710,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 48.3,
      "weeks_in_campaign": 37.7,
-     "drawdown": -0.6099,
+     "drawdown": -0.6096,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1718,7 +1718,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.595,
+     "p_bottom_in": 0.5952,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1730,7 +1730,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5618,
+     "p_bottom_in": 0.5619,
      "bottom_price_q": {
       "0.1": 144.94,
       "0.25": 855.69,
