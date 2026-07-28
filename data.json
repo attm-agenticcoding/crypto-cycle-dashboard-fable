@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-28 11:00",
+ "generated_at": "2026-07-28 11:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 63370.0,
-  "ETH": 1886.91
+  "BTC": 63788.0,
+  "ETH": 1913.56
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-28",
-    "price": 63370.0,
-    "mvrv": 1.1836,
-    "mvrv_pct": 0.1947,
+    "price": 63788.0,
+    "mvrv": 1.1914,
+    "mvrv_pct": 0.1968,
     "mvrv_stale_days": 46,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 42.1,
      "weeks_in_campaign": 35.7,
-     "drawdown": -0.4917,
+     "drawdown": -0.4883,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4773,
+     "p_bottom_in": 0.4788,
      "bottom_price_q": {
       "0.1": 7526.21,
       "0.25": 29127.01,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4852,
+     "p_bottom_in": 0.4862,
      "bottom_price_q": {
       "0.1": 3739.76,
       "0.25": 21780.66,
@@ -59,8 +59,8 @@
      },
      "if_not_in_q": {
       "0.1": 3739.76,
-      "0.5": 40943.84,
-      "0.9": 62904.56
+      "0.5": 29127.01,
+      "0.9": 65858.76
      },
      "bottom_date_q": {
       "0.5": "2026-09-06",
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4667,
+     "deployment_target": 0.4632,
      "base_component": 0.4579,
-     "capitulation_boost": 0.0088,
+     "capitulation_boost": 0.0053,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -91,7 +91,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 36, -49% from 124,659 peak",
-     "action": "research target ~47% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~46% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (3,740) \u2014 depth beyond the episode library",
@@ -1699,9 +1699,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-28",
-    "price": 1886.91,
-    "mvrv": 0.9439,
-    "mvrv_pct": 0.2184,
+    "price": 1913.56,
+    "mvrv": 0.9573,
+    "mvrv_pct": 0.232,
     "mvrv_stale_days": 46,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1710,7 +1710,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 48.6,
      "weeks_in_campaign": 38.0,
-     "drawdown": -0.6095,
+     "drawdown": -0.604,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1718,7 +1718,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6002,
+     "p_bottom_in": 0.6045,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1730,7 +1730,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5651,
+     "p_bottom_in": 0.5679,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 855.24,
@@ -1771,7 +1771,7 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 38, -61% from 4,832 peak",
+     "state": "accumulation campaign, week 38, -60% from 4,832 peak",
      "action": "research target ~49% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
@@ -6421,7 +6421,7 @@
     1771.45,
     1891.87,
     1930.09,
-    1886.91
+    1913.56
    ],
    "deployed": [
     0.0,
@@ -6544,7 +6544,7 @@
     0.658,
     0.6176,
     0.6186,
-    0.6251
+    0.6233
    ],
    "dca_deployed": [
     0.0128,
