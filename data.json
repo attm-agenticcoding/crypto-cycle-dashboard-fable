@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-07-30 14:00",
+ "generated_at": "2026-07-30 14:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64818.0,
-  "ETH": 1919.4
+  "BTC": 64757.0,
+  "ETH": 1918.8
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-07-30",
-    "price": 64818.0,
-    "mvrv": 1.2115,
-    "mvrv_pct": 0.202,
+    "price": 64757.0,
+    "mvrv": 1.2103,
+    "mvrv_pct": 0.2018,
     "mvrv_stale_days": 48,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 42.4,
      "weeks_in_campaign": 36.0,
-     "drawdown": -0.4803,
+     "drawdown": -0.4808,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4869,
+     "p_bottom_in": 0.4867,
      "bottom_price_q": {
       "0.1": 7529.93,
       "0.25": 29141.39,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4915,
+     "p_bottom_in": 0.4913,
      "bottom_price_q": {
       "0.1": 3741.6,
       "0.25": 23056.96,
@@ -1701,9 +1701,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-07-30",
-    "price": 1919.4,
-    "mvrv": 0.9607,
-    "mvrv_pct": 0.2345,
+    "price": 1918.8,
+    "mvrv": 0.9604,
+    "mvrv_pct": 0.2343,
     "mvrv_stale_days": 48,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1712,7 +1712,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 48.9,
      "weeks_in_campaign": 38.3,
-     "drawdown": -0.6027,
+     "drawdown": -0.6028,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1720,7 +1720,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6124,
+     "p_bottom_in": 0.6122,
      "bottom_price_q": {
       "0.1": 291.68,
       "0.25": 997.59,
@@ -1741,7 +1741,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 164.1,
+      "0.1": 144.94,
       "0.5": 802.03,
       "0.9": 1210.54
      },
@@ -2726,7 +2726,7 @@
      1743.82,
      1863.17,
      1876.91,
-     1919.4
+     1918.8
     ],
     "campaigns": [
      {
@@ -6183,7 +6183,7 @@
     63175.25,
     63770.6,
     65051.23,
-    64818.0
+    64757.0
    ],
    "deployed": [
     0.0,
@@ -6300,7 +6300,7 @@
     0.5918,
     0.573,
     0.5744,
-    0.5788
+    0.5789
    ],
    "dca_deployed": [
     0.0128,
