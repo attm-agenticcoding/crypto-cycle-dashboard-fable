@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-08 22:00",
+ "generated_at": "2026-08-08 22:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64972.0,
-  "ETH": 1918.4
+  "BTC": 65081.0,
+  "ETH": 1921.86
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-08-08",
-    "price": 64972.0,
-    "mvrv": 1.2135,
-    "mvrv_pct": 0.203,
+    "price": 65081.0,
+    "mvrv": 1.2156,
+    "mvrv_pct": 0.2037,
     "mvrv_stale_days": 57,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 43.7,
      "weeks_in_campaign": 37.3,
-     "drawdown": -0.4788,
+     "drawdown": -0.4779,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5027,
+     "p_bottom_in": 0.5033,
      "bottom_price_q": {
       "0.1": 20694.55,
       "0.25": 40943.84,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5017,
+     "p_bottom_in": 0.5021,
      "bottom_price_q": {
       "0.1": 11212.01,
       "0.25": 36523.62,
@@ -1706,9 +1706,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-08-08",
-    "price": 1918.4,
-    "mvrv": 0.9597,
-    "mvrv_pct": 0.2338,
+    "price": 1921.86,
+    "mvrv": 0.9614,
+    "mvrv_pct": 0.2363,
     "mvrv_stale_days": 57,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1717,7 +1717,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 50.1,
      "weeks_in_campaign": 39.6,
-     "drawdown": -0.603,
+     "drawdown": -0.6023,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1725,7 +1725,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6363,
+     "p_bottom_in": 0.637,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1737,7 +1737,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5886,
+     "p_bottom_in": 0.589,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 855.24,
@@ -1746,7 +1746,7 @@
       "0.9": 1567.84
      },
      "if_not_in_q": {
-      "0.1": 144.96,
+      "0.1": 164.12,
       "0.5": 802.17,
       "0.9": 1210.75
      },
