@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-09 18:30",
+ "generated_at": "2026-08-09 22:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 64905.0,
-  "ETH": 1919.37
+  "BTC": 65184.065,
+  "ETH": 1922.065
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-08-09",
-    "price": 64905.0,
-    "mvrv": 1.2123,
-    "mvrv_pct": 0.2027,
+    "price": 65184.07,
+    "mvrv": 1.2175,
+    "mvrv_pct": 0.2044,
     "mvrv_stale_days": 58,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 43.9,
      "weeks_in_campaign": 37.4,
-     "drawdown": -0.4793,
+     "drawdown": -0.4771,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.504,
+     "p_bottom_in": 0.5056,
      "bottom_price_q": {
       "0.1": 20694.55,
       "0.25": 40943.84,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5026,
+     "p_bottom_in": 0.5036,
      "bottom_price_q": {
       "0.1": 11212.01,
       "0.25": 36523.62,
@@ -1706,9 +1706,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-08-09",
-    "price": 1919.37,
-    "mvrv": 0.9602,
-    "mvrv_pct": 0.234,
+    "price": 1922.07,
+    "mvrv": 0.9615,
+    "mvrv_pct": 0.2363,
     "mvrv_stale_days": 58,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1717,7 +1717,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 50.3,
      "weeks_in_campaign": 39.7,
-     "drawdown": -0.6028,
+     "drawdown": -0.6022,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1725,7 +1725,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6391,
+     "p_bottom_in": 0.6397,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1737,7 +1737,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5904,
+     "p_bottom_in": 0.5908,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 855.24,
@@ -1746,7 +1746,7 @@
       "0.9": 1567.84
      },
      "if_not_in_q": {
-      "0.1": 164.12,
+      "0.1": 144.96,
       "0.5": 802.17,
       "0.9": 1210.75
      },
