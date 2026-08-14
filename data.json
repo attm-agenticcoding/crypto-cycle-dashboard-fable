@@ -1,7 +1,10 @@
 {
- "generated_at": "2026-08-14 08:31",
- "run_kind": "close",
- "live_spots": {},
+ "generated_at": "2026-08-14 18:30",
+ "run_kind": "live",
+ "live_spots": {
+  "BTC": 62802.0,
+  "ETH": 1874.45
+ },
  "params": {
   "family": "time_boost",
   "horizon_weeks": 78,
@@ -15,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-08-14",
-    "price": 63418.49,
-    "mvrv": 1.1845,
-    "mvrv_pct": 0.1952,
+    "price": 62802.0,
+    "mvrv": 1.173,
+    "mvrv_pct": 0.1909,
     "mvrv_stale_days": 63,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -26,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 44.6,
      "weeks_in_campaign": 38.1,
-     "drawdown": -0.4913,
+     "drawdown": -0.4962,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -34,11 +37,11 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.5023,
+     "p_bottom_in": 0.4983,
      "bottom_price_q": {
-      "0.1": 20694.55,
-      "0.25": 40943.84,
-      "0.5": 58624.71,
+      "0.1": 7526.21,
+      "0.25": 29127.01,
+      "0.5": 58512.41,
       "0.75": 58624.71,
       "0.9": 58624.71
      },
@@ -46,13 +49,13 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5015,
+     "p_bottom_in": 0.4989,
      "bottom_price_q": {
-      "0.1": 11212.01,
-      "0.25": 36523.62,
-      "0.5": 58624.71,
-      "0.75": 58624.71,
-      "0.9": 58624.71
+      "0.1": 3739.76,
+      "0.25": 21780.66,
+      "0.5": 58512.41,
+      "0.75": 58652.78,
+      "0.9": 58652.78
      },
      "if_not_in_q": {
       "0.1": 3739.76,
@@ -60,7 +63,7 @@
       "0.9": 65858.76
      },
      "bottom_date_q": {
-      "0.5": "2026-08-14",
+      "0.5": "2026-09-06",
       "0.1": "2026-08-14",
       "0.9": "2026-10-19"
      },
@@ -75,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.4969,
+     "deployment_target": 0.5041,
      "base_component": 0.489,
-     "capitulation_boost": 0.0079,
+     "capitulation_boost": 0.0151,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -87,11 +90,11 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 38, -49% from 124,659 peak",
+     "state": "accumulation campaign, week 38, -50% from 124,659 peak",
      "action": "research target ~50% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
-      "a lower low materially below the calibrated q10 (11,212) \u2014 depth beyond the episode library",
+      "a lower low materially below the calibrated q10 (3,740) \u2014 depth beyond the episode library",
       "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 63d])",
       "this drawdown resolves as a mid-cycle correction (reclaim above 106,011) \u2014 then the reserve was over-held (bounded cost)",
       "structural break vs all historical analogs (new asset regime)"
@@ -1705,9 +1708,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-08-14",
-    "price": 1884.15,
-    "mvrv": 0.9426,
-    "mvrv_pct": 0.2174,
+    "price": 1874.45,
+    "mvrv": 0.9377,
+    "mvrv_pct": 0.2148,
     "mvrv_stale_days": 63,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1716,7 +1719,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 51.0,
      "weeks_in_campaign": 40.4,
-     "drawdown": -0.6101,
+     "drawdown": -0.6121,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1724,7 +1727,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6426,
+     "p_bottom_in": 0.6398,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1736,7 +1739,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5927,
+     "p_bottom_in": 0.5909,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 855.24,
