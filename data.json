@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-14 18:30",
+ "generated_at": "2026-08-14 21:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 62802.0,
-  "ETH": 1874.45
+  "BTC": 62698.0,
+  "ETH": 1869.36
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-08-14",
-    "price": 62802.0,
-    "mvrv": 1.173,
-    "mvrv_pct": 0.1909,
+    "price": 62698.0,
+    "mvrv": 1.1711,
+    "mvrv_pct": 0.1903,
     "mvrv_stale_days": 63,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 44.6,
      "weeks_in_campaign": 38.1,
-     "drawdown": -0.4962,
+     "drawdown": -0.497,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.4983,
+     "p_bottom_in": 0.4976,
      "bottom_price_q": {
       "0.1": 7526.21,
       "0.25": 29127.01,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.4989,
+     "p_bottom_in": 0.4984,
      "bottom_price_q": {
       "0.1": 3739.76,
       "0.25": 21780.66,
@@ -59,8 +59,8 @@
      },
      "if_not_in_q": {
       "0.1": 3739.76,
-      "0.5": 29127.01,
-      "0.9": 65858.76
+      "0.5": 40943.84,
+      "0.9": 62904.56
      },
      "bottom_date_q": {
       "0.5": "2026-09-06",
@@ -78,9 +78,9 @@
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.5041,
+     "deployment_target": 0.5053,
      "base_component": 0.489,
-     "capitulation_boost": 0.0151,
+     "capitulation_boost": 0.0162,
      "pace": "cap 12%/week toward target",
      "params": {
       "horizon_weeks": 78,
@@ -91,7 +91,7 @@
     },
     "headline": {
      "state": "accumulation campaign, week 38, -50% from 124,659 peak",
-     "action": "research target ~50% deployed (not live-approved); weekly steps <= 12%",
+     "action": "research target ~51% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (3,740) \u2014 depth beyond the episode library",
@@ -1708,9 +1708,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-08-14",
-    "price": 1874.45,
-    "mvrv": 0.9377,
-    "mvrv_pct": 0.2148,
+    "price": 1869.36,
+    "mvrv": 0.9352,
+    "mvrv_pct": 0.2136,
     "mvrv_stale_days": 63,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1719,7 +1719,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 51.0,
      "weeks_in_campaign": 40.4,
-     "drawdown": -0.6121,
+     "drawdown": -0.6131,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1727,7 +1727,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6398,
+     "p_bottom_in": 0.6384,
      "bottom_price_q": {
       "0.1": 291.73,
       "0.25": 997.76,
@@ -1739,7 +1739,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.5909,
+     "p_bottom_in": 0.5899,
      "bottom_price_q": {
       "0.1": 144.96,
       "0.25": 855.24,
