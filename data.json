@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-31 12:30",
+ "generated_at": "2026-08-31 13:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 78590.0,
-  "ETH": 2464.05
+  "BTC": 78681.0,
+  "ETH": 2470.67
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-08-31",
-    "price": 78590.0,
-    "mvrv": 1.4689,
-    "mvrv_pct": 0.3643,
+    "price": 78681.0,
+    "mvrv": 1.4706,
+    "mvrv_pct": 0.3657,
     "mvrv_stale_days": 80,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 47.0,
      "weeks_in_campaign": 40.6,
-     "drawdown": -0.3699,
+     "drawdown": -0.3691,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6546,
+     "p_bottom_in": 0.6552,
      "bottom_price_q": {
       "0.1": 20704.77,
       "0.25": 45893.34,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.6005,
+     "p_bottom_in": 0.6009,
      "bottom_price_q": {
       "0.1": 11249.98,
       "0.25": 36574.08,
@@ -1694,9 +1694,9 @@
     },
     {
      "date": "2026-08-31",
-     "price": 78590.0,
+     "price": 78681.0,
      "regime": "ACCUM",
-     "p_bottom_in": 0.6,
+     "p_bottom_in": 0.601,
      "bottom_q50": 58523.93,
      "bottom_q10": 11249.98,
      "bottom_q90": 58523.93,
@@ -1715,9 +1715,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-08-31",
-    "price": 2464.05,
-    "mvrv": 1.2333,
-    "mvrv_pct": 0.5034,
+    "price": 2470.67,
+    "mvrv": 1.2366,
+    "mvrv_pct": 0.5067,
     "mvrv_stale_days": 80,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1726,7 +1726,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 53.4,
      "weeks_in_campaign": 42.9,
-     "drawdown": -0.4901,
+     "drawdown": -0.4887,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1734,7 +1734,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.8364,
+     "p_bottom_in": 0.8378,
      "bottom_price_q": {
       "0.1": 997.76,
       "0.25": 1565.19,
@@ -1746,7 +1746,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7187,
+     "p_bottom_in": 0.7195,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1020.0,
@@ -3103,9 +3103,9 @@
     },
     {
      "date": "2026-08-31",
-     "price": 2464.05,
+     "price": 2470.67,
      "regime": "ACCUM",
-     "p_bottom_in": 0.719,
+     "p_bottom_in": 0.72,
      "bottom_q50": 1565.19,
      "bottom_q10": 611.42,
      "bottom_q90": 1565.19,
