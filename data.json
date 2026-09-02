@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-02 11:30",
+ "generated_at": "2026-09-02 12:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 77046.0,
-  "ETH": 2388.21
+  "BTC": 77238.0,
+  "ETH": 2388.34
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-02",
-    "price": 77046.0,
-    "mvrv": 1.44,
-    "mvrv_pct": 0.3497,
+    "price": 77238.0,
+    "mvrv": 1.4436,
+    "mvrv_pct": 0.3528,
     "mvrv_stale_days": 82,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 47.3,
      "weeks_in_campaign": 40.9,
-     "drawdown": -0.3822,
+     "drawdown": -0.3807,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6477,
+     "p_bottom_in": 0.6492,
      "bottom_price_q": {
       "0.1": 20704.77,
       "0.25": 45893.34,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.596,
+     "p_bottom_in": 0.597,
      "bottom_price_q": {
       "0.1": 11249.98,
       "0.25": 36574.08,
@@ -1381,7 +1381,7 @@
      63411.72,
      69300.01,
      79026.18,
-     77046.0
+     77238.0
     ],
     "campaigns": [
      {
@@ -1717,8 +1717,8 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-02",
-    "price": 2388.21,
-    "mvrv": 1.1953,
+    "price": 2388.34,
+    "mvrv": 1.1954,
     "mvrv_pct": 0.4739,
     "mvrv_stale_days": 82,
     "regime": "ACCUMULATION",
@@ -1728,7 +1728,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 53.7,
      "weeks_in_campaign": 43.1,
-     "drawdown": -0.5058,
+     "drawdown": -0.5057,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1757,7 +1757,7 @@
       "0.9": 1565.19
      },
      "if_not_in_q": {
-      "0.1": 144.96,
+      "0.1": 164.12,
       "0.5": 802.17,
       "0.9": 1210.75
      },
