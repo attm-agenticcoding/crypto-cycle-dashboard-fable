@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-04 10:00",
+ "generated_at": "2026-09-04 10:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 79344.0,
-  "ETH": 2451.22
+  "BTC": 79353.0,
+  "ETH": 2452.89
  },
  "params": {
   "family": "time_boost",
@@ -18,8 +18,8 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-04",
-    "price": 79344.0,
-    "mvrv": 1.483,
+    "price": 79353.0,
+    "mvrv": 1.4831,
     "mvrv_pct": 0.3712,
     "mvrv_stale_days": 84,
     "regime": "ACCUMULATION",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.673,
+     "p_bottom_in": 0.6731,
      "bottom_price_q": {
       "0.1": 20704.77,
       "0.25": 45893.34,
@@ -1717,9 +1717,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-04",
-    "price": 2451.22,
-    "mvrv": 1.2269,
-    "mvrv_pct": 0.4991,
+    "price": 2452.89,
+    "mvrv": 1.2277,
+    "mvrv_pct": 0.4999,
     "mvrv_stale_days": 84,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1728,7 +1728,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 54.0,
      "weeks_in_campaign": 43.4,
-     "drawdown": -0.4927,
+     "drawdown": -0.4924,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1736,7 +1736,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.8443,
+     "p_bottom_in": 0.8447,
      "bottom_price_q": {
       "0.1": 997.76,
       "0.25": 1565.19,
@@ -1748,7 +1748,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7238,
+     "p_bottom_in": 0.724,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1020.0,
