@@ -1,7 +1,10 @@
 {
- "generated_at": "2026-09-07 20:31",
- "run_kind": "close",
- "live_spots": {},
+ "generated_at": "2026-09-08 06:30",
+ "run_kind": "live",
+ "live_spots": {
+  "BTC": 78825.0,
+  "ETH": 2491.37
+ },
  "params": {
   "family": "time_boost",
   "horizon_weeks": 78,
@@ -14,19 +17,19 @@
   "BTC": {
    "live": {
     "asset": "BTC",
-    "as_of": "2026-09-07",
-    "price": 79091.97,
-    "mvrv": 1.4782,
-    "mvrv_pct": 0.3688,
-    "mvrv_stale_days": 87,
+    "as_of": "2026-09-08",
+    "price": 78825.0,
+    "mvrv": 1.4733,
+    "mvrv_pct": 0.3664,
+    "mvrv_stale_days": 88,
     "regime": "ACCUMULATION",
     "campaign": {
      "anchor_date": "2025-10-06",
      "anchor_price": 124720.09,
      "start": "2025-11-20",
-     "weeks_since_peak": 48.0,
-     "weeks_in_campaign": 41.6,
-     "drawdown": -0.3658,
+     "weeks_since_peak": 48.1,
+     "weeks_in_campaign": 41.7,
+     "drawdown": -0.368,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -34,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.6797,
+     "p_bottom_in": 0.6802,
      "bottom_price_q": {
       "0.1": 20704.77,
       "0.25": 47629.54,
@@ -46,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.6168,
+     "p_bottom_in": 0.6171,
      "bottom_price_q": {
       "0.1": 11249.98,
       "0.25": 36574.08,
@@ -60,8 +63,8 @@
       "0.9": 59563.56
      },
      "bottom_date_q": {
-      "0.5": "2026-09-07",
-      "0.1": "2026-09-07",
+      "0.5": "2026-09-08",
+      "0.1": "2026-09-08",
       "0.9": "2026-10-19"
      },
      "evidence": {
@@ -69,14 +72,14 @@
       "weight": 0.65,
       "n_asset_episodes": 4,
       "reasons": [
-       "MVRV stale 87d (price-scaled nowcast in use)"
+       "MVRV stale 88d (price-scaled nowcast in use)"
       ]
      }
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.533,
-     "base_component": 0.533,
+     "deployment_target": 0.5348,
+     "base_component": 0.5348,
      "capitulation_boost": 0.0,
      "pace": "cap 12%/week toward target",
      "params": {
@@ -92,7 +95,7 @@
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (11,250) \u2014 depth beyond the episode library",
-      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 87d])",
+      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 88d])",
       "this drawdown resolves as a mid-cycle correction (reclaim above 96,955) \u2014 then the reserve was over-held (bounded cost)",
       "structural break vs all historical analogs (new asset regime)"
      ],
@@ -1713,19 +1716,19 @@
   "ETH": {
    "live": {
     "asset": "ETH",
-    "as_of": "2026-09-07",
-    "price": 2489.62,
-    "mvrv": 1.2461,
-    "mvrv_pct": 0.5143,
-    "mvrv_stale_days": 87,
+    "as_of": "2026-09-08",
+    "price": 2491.37,
+    "mvrv": 1.247,
+    "mvrv_pct": 0.5155,
+    "mvrv_stale_days": 88,
     "regime": "ACCUMULATION",
     "campaign": {
      "anchor_date": "2025-08-22",
      "anchor_price": 4832.07,
      "start": "2025-11-04",
-     "weeks_since_peak": 54.4,
-     "weeks_in_campaign": 43.9,
-     "drawdown": -0.4848,
+     "weeks_since_peak": 54.6,
+     "weeks_in_campaign": 44.0,
+     "drawdown": -0.4844,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1733,7 +1736,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.8598,
+     "p_bottom_in": 0.8624,
      "bottom_price_q": {
       "0.1": 997.76,
       "0.25": 1565.19,
@@ -1745,7 +1748,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7338,
+     "p_bottom_in": 0.7356,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1020.0,
@@ -1759,23 +1762,23 @@
       "0.9": 1210.75
      },
      "bottom_date_q": {
-      "0.5": "2026-09-07",
-      "0.1": "2026-09-07",
-      "0.9": "2027-01-18"
+      "0.5": "2026-09-08",
+      "0.1": "2026-09-08",
+      "0.9": "2027-01-19"
      },
      "evidence": {
       "grade": "MEDIUM",
       "weight": 0.65,
       "n_asset_episodes": 7,
       "reasons": [
-       "MVRV stale 87d (price-scaled nowcast in use)"
+       "MVRV stale 88d (price-scaled nowcast in use)"
       ]
      }
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.5623,
-     "base_component": 0.5623,
+     "deployment_target": 0.5641,
+     "base_component": 0.5641,
      "capitulation_boost": 0.0,
      "pace": "cap 12%/week toward target",
      "params": {
@@ -1791,7 +1794,7 @@
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (611) \u2014 depth beyond the episode library",
-      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 87d])",
+      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 88d])",
       "this drawdown resolves as a mid-cycle correction (reclaim above 3,355) \u2014 then the reserve was over-held (bounded cost)",
       "structural break vs all historical analogs (new asset regime)"
      ],
@@ -6454,7 +6457,8 @@
     "2026-08-11",
     "2026-08-18",
     "2026-08-25",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-08"
    ],
    "price": [
     3286.21,
@@ -6500,7 +6504,8 @@
     1880.72,
     1916.72,
     2442.55,
-    2417.25
+    2417.25,
+    2491.37
    ],
    "deployed": [
     0.0,
@@ -6546,7 +6551,8 @@
     0.561,
     0.561,
     0.561,
-    0.561
+    0.561,
+    0.5641
    ],
    "target": [
     0.0,
@@ -6592,7 +6598,8 @@
     0.5128,
     0.5256,
     0.5385,
-    0.5513
+    0.5513,
+    0.5641
    ],
    "p_post": [
     0.3725,
@@ -6638,7 +6645,8 @@
     0.6325,
     0.6336,
     0.6007,
-    0.6063
+    0.6063,
+    0.6051
    ],
    "dca_deployed": [
     0.0128,
@@ -6684,7 +6692,8 @@
     0.5256,
     0.5385,
     0.5513,
-    0.5641
+    0.5641,
+    0.5769
    ],
    "trough": {
     "date": "2026-06-25",
