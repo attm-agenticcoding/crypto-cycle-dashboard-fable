@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-10 14:00",
+ "generated_at": "2026-09-10 14:30",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 77335.0,
-  "ETH": 2468.5
+  "BTC": 77071.0,
+  "ETH": 2460.02
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-10",
-    "price": 77335.0,
-    "mvrv": 1.4454,
-    "mvrv_pct": 0.3547,
+    "price": 77071.0,
+    "mvrv": 1.4405,
+    "mvrv_pct": 0.3499,
     "mvrv_stale_days": 90,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 48.4,
      "weeks_in_campaign": 42.0,
-     "drawdown": -0.3799,
+     "drawdown": -0.382,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.672,
+     "p_bottom_in": 0.6698,
      "bottom_price_q": {
       "0.1": 20704.77,
       "0.25": 45893.34,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.6118,
+     "p_bottom_in": 0.6104,
      "bottom_price_q": {
       "0.1": 11249.98,
       "0.25": 36574.08,
@@ -1719,9 +1719,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-10",
-    "price": 2468.5,
-    "mvrv": 1.2355,
-    "mvrv_pct": 0.5057,
+    "price": 2460.02,
+    "mvrv": 1.2313,
+    "mvrv_pct": 0.5021,
     "mvrv_stale_days": 90,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1730,7 +1730,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 54.9,
      "weeks_in_campaign": 44.3,
-     "drawdown": -0.4891,
+     "drawdown": -0.4909,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1738,7 +1738,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.8623,
+     "p_bottom_in": 0.8605,
      "bottom_price_q": {
       "0.1": 997.76,
       "0.25": 1565.19,
@@ -1750,7 +1750,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7355,
+     "p_bottom_in": 0.7343,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1020.0,
@@ -2756,7 +2756,7 @@
      2326.35,
      2511.67,
      2507.47,
-     2468.5
+     2460.02
     ],
     "campaigns": [
      {
@@ -6231,7 +6231,7 @@
     73011.87,
     80275.34,
     81263.99,
-    77335.0
+    77071.0
    ],
    "deployed": [
     0.0,
@@ -6366,7 +6366,7 @@
     0.5705,
     0.5577,
     0.5597,
-    0.572
+    0.5728
    ],
    "dca_deployed": [
     0.0128,
