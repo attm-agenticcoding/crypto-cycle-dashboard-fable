@@ -1,7 +1,10 @@
 {
- "generated_at": "2026-09-20 20:31",
- "run_kind": "close",
- "live_spots": {},
+ "generated_at": "2026-09-21 06:30",
+ "run_kind": "live",
+ "live_spots": {
+  "BTC": 84501.0,
+  "ETH": 2716.95
+ },
  "params": {
   "family": "time_boost",
   "horizon_weeks": 78,
@@ -14,19 +17,19 @@
   "BTC": {
    "live": {
     "asset": "BTC",
-    "as_of": "2026-09-20",
-    "price": 81159.64,
-    "mvrv": 1.5169,
-    "mvrv_pct": 0.3826,
-    "mvrv_stale_days": 100,
+    "as_of": "2026-09-21",
+    "price": 84501.0,
+    "mvrv": 1.5793,
+    "mvrv_pct": 0.4101,
+    "mvrv_stale_days": 101,
     "regime": "ACCUMULATION",
     "campaign": {
      "anchor_date": "2025-10-06",
      "anchor_price": 124720.09,
      "start": "2025-11-20",
-     "weeks_since_peak": 49.9,
-     "weeks_in_campaign": 43.4,
-     "drawdown": -0.3493,
+     "weeks_since_peak": 50.0,
+     "weeks_in_campaign": 43.6,
+     "drawdown": -0.3225,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -34,10 +37,10 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.7334,
+     "p_bottom_in": 0.7654,
      "bottom_price_q": {
       "0.1": 25753.16,
-      "0.25": 53479.13,
+      "0.25": 58523.93,
       "0.5": 58523.93,
       "0.75": 58523.93,
       "0.9": 58523.93
@@ -46,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.6517,
+     "p_bottom_in": 0.6725,
      "bottom_price_q": {
       "0.1": 11249.98,
       "0.25": 42735.7,
@@ -60,8 +63,8 @@
       "0.9": 59563.56
      },
      "bottom_date_q": {
-      "0.5": "2026-09-20",
-      "0.1": "2026-09-20",
+      "0.5": "2026-09-21",
+      "0.1": "2026-09-21",
       "0.9": "2026-10-19"
      },
      "evidence": {
@@ -69,14 +72,14 @@
       "weight": 0.65,
       "n_asset_episodes": 4,
       "reasons": [
-       "MVRV stale 100d (price-scaled nowcast in use)"
+       "MVRV stale 101d (price-scaled nowcast in use)"
       ]
      }
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.5568,
-     "base_component": 0.5568,
+     "deployment_target": 0.5586,
+     "base_component": 0.5586,
      "capitulation_boost": 0.0,
      "pace": "cap 12%/week toward target",
      "params": {
@@ -87,12 +90,12 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 43, -35% from 124,720 peak",
+     "state": "accumulation campaign, week 44, -32% from 124,720 peak",
      "action": "research target ~56% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (11,250) \u2014 depth beyond the episode library",
-      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 100d])",
+      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 101d])",
       "this drawdown resolves as a mid-cycle correction (reclaim above 96,955) \u2014 then the reserve was over-held (bounded cost)",
       "structural break vs all historical analogs (new asset regime)"
      ],
@@ -1717,19 +1720,19 @@
   "ETH": {
    "live": {
     "asset": "ETH",
-    "as_of": "2026-09-20",
-    "price": 2644.31,
-    "mvrv": 1.3235,
-    "mvrv_pct": 0.5903,
-    "mvrv_stale_days": 100,
+    "as_of": "2026-09-21",
+    "price": 2716.95,
+    "mvrv": 1.3599,
+    "mvrv_pct": 0.6243,
+    "mvrv_stale_days": 101,
     "regime": "ACCUMULATION",
     "campaign": {
      "anchor_date": "2025-08-22",
      "anchor_price": 4832.07,
      "start": "2025-11-04",
-     "weeks_since_peak": 56.3,
-     "weeks_in_campaign": 45.7,
-     "drawdown": -0.4528,
+     "weeks_since_peak": 56.4,
+     "weeks_in_campaign": 45.9,
+     "drawdown": -0.4377,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1737,7 +1740,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.9125,
+     "p_bottom_in": 0.9244,
      "bottom_price_q": {
       "0.1": 1565.19,
       "0.25": 1565.19,
@@ -1749,7 +1752,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7681,
+     "p_bottom_in": 0.7758,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1565.19,
@@ -1763,23 +1766,23 @@
       "0.9": 1210.75
      },
      "bottom_date_q": {
-      "0.5": "2026-09-20",
-      "0.1": "2026-09-20",
-      "0.9": "2026-11-18"
+      "0.5": "2026-09-21",
+      "0.1": "2026-09-21",
+      "0.9": "2026-11-19"
      },
      "evidence": {
       "grade": "MEDIUM",
       "weight": 0.65,
       "n_asset_episodes": 7,
       "reasons": [
-       "MVRV stale 100d (price-scaled nowcast in use)"
+       "MVRV stale 101d (price-scaled nowcast in use)"
       ]
      }
     },
     "policy": {
      "family": "time_boost",
-     "deployment_target": 0.5861,
-     "base_component": 0.5861,
+     "deployment_target": 0.5879,
+     "base_component": 0.5879,
      "capitulation_boost": 0.0,
      "pace": "cap 12%/week toward target",
      "params": {
@@ -1790,12 +1793,12 @@
      "terminal_guarantee": "full deployment at 40w-high reclaim or -10% round trip"
     },
     "headline": {
-     "state": "accumulation campaign, week 46, -45% from 4,832 peak",
+     "state": "accumulation campaign, week 46, -44% from 4,832 peak",
      "action": "research target ~59% deployed (not live-approved); weekly steps <= 12%",
      "confidence": "MEDIUM",
      "wrong_if": [
       "a lower low materially below the calibrated q10 (611) \u2014 depth beyond the episode library",
-      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 100d])",
+      "MVRV percentile is distorted (realized-cap regime break or stale feed [currently 101d])",
       "this drawdown resolves as a mid-cycle correction (reclaim above 3,355) \u2014 then the reserve was over-held (bounded cost)",
       "structural break vs all historical analogs (new asset regime)"
      ],
