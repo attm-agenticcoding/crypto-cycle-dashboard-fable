@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-26 12:30",
+ "generated_at": "2026-09-26 13:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 84086.0,
-  "ETH": 2689.47
+  "BTC": 84102.0,
+  "ETH": 2690.58
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-26",
-    "price": 84086.0,
-    "mvrv": 1.5706,
-    "mvrv_pct": 0.406,
+    "price": 84102.0,
+    "mvrv": 1.5709,
+    "mvrv_pct": 0.4062,
     "mvrv_stale_days": 106,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 50.7,
      "weeks_in_campaign": 44.3,
-     "drawdown": -0.3255,
+     "drawdown": -0.3253,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.7722,
+     "p_bottom_in": 0.7724,
      "bottom_price_q": {
       "0.1": 29127.01,
       "0.25": 58624.71,
@@ -60,7 +60,7 @@
      "if_not_in_q": {
       "0.1": 3739.76,
       "0.5": 29127.01,
-      "0.9": 59534.17
+      "0.9": 65858.76
      },
      "bottom_date_q": {
       "0.5": "2026-09-26",
@@ -1723,9 +1723,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-26",
-    "price": 2689.47,
-    "mvrv": 1.3454,
-    "mvrv_pct": 0.6105,
+    "price": 2690.58,
+    "mvrv": 1.346,
+    "mvrv_pct": 0.611,
     "mvrv_stale_days": 106,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1734,7 +1734,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 57.1,
      "weeks_in_campaign": 46.6,
-     "drawdown": -0.4434,
+     "drawdown": -0.4432,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -1742,7 +1742,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.9268,
+     "p_bottom_in": 0.927,
      "bottom_price_q": {
       "0.1": 1567.84,
       "0.25": 1567.84,
@@ -1754,7 +1754,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.7774,
+     "p_bottom_in": 0.7775,
      "bottom_price_q": {
       "0.1": 610.75,
       "0.25": 1567.84,
