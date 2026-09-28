@@ -1,10 +1,7 @@
 {
- "generated_at": "2026-09-27 16:00",
- "run_kind": "live",
- "live_spots": {
-  "BTC": 84726.0,
-  "ETH": 2691.78
- },
+ "generated_at": "2026-09-27 20:30",
+ "run_kind": "close",
+ "live_spots": {},
  "params": {
   "family": "time_boost",
   "horizon_weeks": 78,
@@ -18,9 +15,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-27",
-    "price": 84726.0,
-    "mvrv": 1.5835,
-    "mvrv_pct": 0.4125,
+    "price": 84462.14,
+    "mvrv": 1.5786,
+    "mvrv_pct": 0.41,
     "mvrv_stale_days": 107,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +26,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 50.9,
      "weeks_in_campaign": 44.4,
-     "drawdown": -0.3203,
+     "drawdown": -0.3225,
      "trough_so_far": {
       "price": 58523.93,
       "date": "2026-06-30",
@@ -37,7 +34,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.7816,
+     "p_bottom_in": 0.7793,
      "bottom_price_q": {
       "0.1": 29127.01,
       "0.25": 58523.93,
@@ -49,7 +46,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.683,
+     "p_bottom_in": 0.6816,
      "bottom_price_q": {
       "0.1": 17544.58,
       "0.25": 44876.56,
@@ -1723,9 +1720,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-27",
-    "price": 2691.78,
-    "mvrv": 1.3473,
-    "mvrv_pct": 0.6115,
+    "price": 2688.23,
+    "mvrv": 1.3455,
+    "mvrv_pct": 0.6107,
     "mvrv_stale_days": 107,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1734,7 +1731,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 57.3,
      "weeks_in_campaign": 46.7,
-     "drawdown": -0.4429,
+     "drawdown": -0.4437,
      "trough_so_far": {
       "price": 1565.19,
       "date": "2026-06-25",
@@ -1742,7 +1739,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.9292,
+     "p_bottom_in": 0.9287,
      "bottom_price_q": {
       "0.1": 1565.19,
       "0.25": 1565.19,
@@ -1754,7 +1751,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.779,
+     "p_bottom_in": 0.7786,
      "bottom_price_q": {
       "0.1": 611.42,
       "0.25": 1565.19,
