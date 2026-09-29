@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-29 13:30",
+ "generated_at": "2026-09-29 14:00",
  "run_kind": "live",
  "live_spots": {
-  "BTC": 83163.015,
-  "ETH": 2677.915
+  "BTC": 83188.475,
+  "ETH": 2677.595
  },
  "params": {
   "family": "time_boost",
@@ -18,9 +18,9 @@
    "live": {
     "asset": "BTC",
     "as_of": "2026-09-29",
-    "price": 83163.01,
-    "mvrv": 1.5533,
-    "mvrv_pct": 0.3972,
+    "price": 83188.48,
+    "mvrv": 1.5538,
+    "mvrv_pct": 0.3974,
     "mvrv_stale_days": 109,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -29,7 +29,7 @@
      "start": "2025-11-20",
      "weeks_since_peak": 51.1,
      "weeks_in_campaign": 44.7,
-     "drawdown": -0.3329,
+     "drawdown": -0.3327,
      "trough_so_far": {
       "price": 58624.71,
       "date": "2026-06-30",
@@ -37,7 +37,7 @@
      }
     },
     "raw_forecast": {
-     "p_bottom_in": 0.771,
+     "p_bottom_in": 0.7712,
      "bottom_price_q": {
       "0.1": 29127.01,
       "0.25": 58624.71,
@@ -49,7 +49,7 @@
      "hazard_model": "5-input basing hazard, Layer-3 routed (accepted 2026-07-02)"
     },
     "calibrated": {
-     "p_bottom_in": 0.6761,
+     "p_bottom_in": 0.6763,
      "bottom_price_q": {
       "0.1": 17519.39,
       "0.25": 44851.37,
@@ -1723,9 +1723,9 @@
    "live": {
     "asset": "ETH",
     "as_of": "2026-09-29",
-    "price": 2677.91,
-    "mvrv": 1.3396,
-    "mvrv_pct": 0.6041,
+    "price": 2677.59,
+    "mvrv": 1.3395,
+    "mvrv_pct": 0.6036,
     "mvrv_stale_days": 109,
     "regime": "ACCUMULATION",
     "campaign": {
@@ -1734,7 +1734,7 @@
      "start": "2025-11-04",
      "weeks_since_peak": 57.6,
      "weeks_in_campaign": 47.0,
-     "drawdown": -0.4458,
+     "drawdown": -0.4459,
      "trough_so_far": {
       "price": 1567.84,
       "date": "2026-06-25",
@@ -6541,7 +6541,7 @@
     2485.06,
     2398.26,
     2753.63,
-    2677.91
+    2677.59
    ],
    "deployed": [
     0.0,
@@ -6691,7 +6691,7 @@
     0.6055,
     0.6148,
     0.594,
-    0.6032
+    0.6033
    ],
    "dca_deployed": [
     0.0128,
