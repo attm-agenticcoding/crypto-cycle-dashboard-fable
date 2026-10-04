@@ -1,14 +1,14 @@
 {
   "publisher": "github-actions",
-  "source_revision": "19dbc16ec03f0d2564278ba8cf4880caebc667cb",
-  "workflow_run_id": "37203977121",
+  "source_revision": "9475ffcfd3f73ac0c20b9b0c86b16848ff33ce66",
+  "workflow_run_id": "37225503894",
   "kind": "fable",
   "mode": "live",
-  "logical_slot": "2026-10-04 06:30",
-  "published_at_utc": "2026-10-04T12:59:25.088604+00:00",
+  "logical_slot": "2026-10-04 14:30",
+  "published_at_utc": "2026-10-04T18:44:01.011901+00:00",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "index.html": "317af64f0e0e21f197047ed70948d9b545238b20f438a23f25080455eff4fcf2",
-    "data.json": "a47156f156a7b07c68cafe911a7caf78990e6db5f11bc0d06b53680a480e0bec"
+    "index.html": "4c21294dde3cdc66f2ed3191a36d35e746640e440eb40afd6543bed363b5767c",
+    "data.json": "96494742c79b830b93e79178640d4f6d459467bba768672e57dfe29a689eb302"
   }
 }
