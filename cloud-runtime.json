@@ -1,0 +1,14 @@
+{
+  "publisher": "github-actions",
+  "source_revision": "8343c732f69598e12fca40c593c04731ea20b8f6",
+  "workflow_run_id": "37174799677",
+  "kind": "fable",
+  "mode": "close",
+  "logical_slot": "2026-10-03",
+  "published_at_utc": "2026-10-04T03:42:48.483741+00:00",
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index.html": "201174804a2cc931d6b521456eedc042a84212ccfa9adf0051218b4d422426dc",
+    "data.json": "6629c0e7258ea95a052a3d72d4f0c7f03867d0c8c4a94f0dbbacc19c3ea42edb"
+  }
+}
