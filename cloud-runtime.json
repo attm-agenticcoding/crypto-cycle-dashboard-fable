@@ -8,7 +8,15 @@
   "published_at_utc": "2026-10-04T18:44:01.011901+00:00",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "index.html": "4c21294dde3cdc66f2ed3191a36d35e746640e440eb40afd6543bed363b5767c",
+    "index.html": "e08062f952fa243cb113dbf3b482d478e37d5f450e63fad7638f609a1a634a2d",
     "data.json": "96494742c79b830b93e79178640d4f6d459467bba768672e57dfe29a689eb302"
+  },
+  "presentation_override": {
+    "scope": "theme-only; original metadata identifies unchanged calculation and data generation",
+    "base_public_revision": "b266890ec2b0c39e8bea0d4a608ebc22a47ce288",
+    "base_index_sha256": "4c21294dde3cdc66f2ed3191a36d35e746640e440eb40afd6543bed363b5767c",
+    "renderer_source_revision": "e665b40bcd3f7165db19dd9cab91fccbda8c1a64",
+    "presentation_commit": "dc34197f458038272588ec296f7150314a506426",
+    "index_sha256": "e08062f952fa243cb113dbf3b482d478e37d5f450e63fad7638f609a1a634a2d"
   }
 }
