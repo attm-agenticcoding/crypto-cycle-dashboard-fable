@@ -3,7 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a0d13">
+<script>
+// Resolve before styles load. A blocked storage area must not disable the control.
+(() => {
+  const key = 'dashboard-theme';
+  const root = document.documentElement;
+  const system = window.matchMedia('(prefers-color-scheme: dark)');
+  const valid = value => value === 'light' || value === 'dark' ? value : 'system';
+  const read = () => {
+    try { return valid(localStorage.getItem(key)); } catch { return 'system'; }
+  };
+  let preference = read();
+  const apply = () => {
+    const theme = preference === 'system' ? (system.matches ? 'dark' : 'light') : preference;
+    root.dataset.theme = theme;
+    root.dataset.themePreference = preference;
+    root.style.colorScheme = theme;
+    const color = document.querySelector('meta[name="theme-color"]');
+    if (color) color.content = theme === 'dark' ? '#0a0d13' : '#f4f6f9';
+    document.querySelectorAll('[data-theme-select]').forEach(select => { select.value = preference; });
+  };
+  apply();
+  document.addEventListener('DOMContentLoaded', apply);
+  document.addEventListener('change', event => {
+    if (!event.target.matches('select[data-theme-select]')) return;
+    preference = valid(event.target.value);
+    try {
+      if (preference === 'system') localStorage.removeItem(key);
+      else localStorage.setItem(key, preference);
+    } catch { /* Keep the in-memory choice when storage is unavailable. */ }
+    apply();
+  });
+  system.addEventListener('change', () => { if (preference === 'system') apply(); });
+  window.addEventListener('storage', event => {
+    if (event.key === key || event.key === null) { preference = read(); apply(); }
+  });
+})();
+</script>
 <meta name="description" content="Fable independent BTC/ETH cycle research benchmark — negative-result artifact. Research only, not investment advice.">
 <title>Fable Crypto Cycle Dashboard</title>
 <style>
@@ -131,6 +169,40 @@ footer.footer{color:var(--dim);font-size:12px;margin:34px 0 8px;border-top:1px s
   .target{font-size:26px}
   .pb{grid-template-columns:60px 1fr 48px}
 }
+
+:root { color-scheme:dark; --dim2:#98a4b5; --theme-border:var(--line2); --theme-surface:var(--panel2); --theme-text:var(--tx); --theme-focus:var(--acc); }
+:root[data-theme="light"] {
+  color-scheme:light; --bg:#f4f6f9; --panel:#ffffff; --panel2:#eaf0f6; --line:#cbd5e1; --line2:#7d8da2;
+  --tx:#182432; --dim:#48586c; --dim2:#516279;
+  --acc:#075eb8; --good:#197235; --warn:#815800; --bad:#b32622;
+  --raw:#7938a8; --cal:#075eb8; --pol:#197235;
+}
+html { background:var(--bg); }
+header.mast { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:start; }
+header.mast > div:first-child { min-width:0; }
+header.mast .theme-control { grid-column:2; grid-row:1; }
+header.mast .ticker { grid-column:1 / -1; margin-left:0; }
+nav.toc { background:var(--bg); }
+.band .lab { background:var(--panel); }
+:root[data-theme="light"] .warnbar, :root[data-theme="light"] .research-warning { background:#fff0ee; border-color:#bd5c57; }
+:root[data-theme="light"] :is(.b-low,.b-failed) { background:#fff0ee; border-color:#bd5c57; }
+:root[data-theme="light"] :is(.b-acc,.b-high) { background:#e7f4ea; border-color:#61946d; }
+:root[data-theme="light"] .b-medium { background:#fff3d2; border-color:#a78739; }
+:root[data-theme="light"] .b-neu { background:var(--panel2); }
+:root[data-theme="light"] tr:hover td { background:#152d4b08; }
+.plan input { min-height:44px; }
+@media(max-width:560px) {
+  header.mast { gap:8px 12px; }
+  header.mast h1 { font-size:16px; }
+  .theme-control { flex-direction:column; align-items:flex-end; gap:3px; }
+  .theme-control select { padding-left:8px; }
+}
+
+.theme-control { display:flex; align-items:center; justify-content:flex-end; gap:8px; font-size:12px; white-space:nowrap; }
+.theme-control select { font:inherit; min-height:44px; padding:8px 30px 8px 10px; border:1px solid var(--theme-border); border-radius:7px; background:var(--theme-surface); color:var(--theme-text); cursor:pointer; }
+:where(select, button, input, a, summary):focus-visible { outline:3px solid var(--theme-focus); outline-offset:3px; }
+@media print { .theme-control { display:none !important; } }
+
 </style>
 </head>
 <body>
@@ -141,6 +213,11 @@ footer.footer{color:var(--dim);font-size:12px;margin:34px 0 8px;border-top:1px s
   <h1>Fable Crypto Cycle Dashboard</h1>
   <div class="sub">independent BTC / ETH cycle research benchmark · negative-result artifact · <span id="asof"></span></div>
  </div>
+<label class="theme-control" for="theme-select">Theme
+  <select id="theme-select" data-theme-select aria-label="Theme">
+    <option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option>
+  </select>
+</label>
  <div class="ticker" id="ticker"></div>
 </header>
 
